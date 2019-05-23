@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="dc13b7f2fbb64609b51f7a9bdacd1a8b" Name="Diagram1">
+        <EntityTypeShape EntityType="Application1Model.Books" Width="1.5" PointX="0.75" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="Application1Model.InQueue" Width="1.5" PointX="3.375" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Application1Model.Library" Width="1.5" PointX="5" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Application1Model.Users" Width="1.5" PointX="0.75" PointY="3.625" IsExpanded="true" />
+        <AssociationConnector Association="Application1Model.FK__InQueue__Title__48CFD27E" ManuallyRouted="false" />
+        <AssociationConnector Association="Application1Model.FK_Library_TOTable2" ManuallyRouted="false" />
+        <AssociationConnector Association="Application1Model.FK__InQueue__Usernam__49C3F6B7" ManuallyRouted="false" />
+        <AssociationConnector Association="Application1Model.FK_Library_ToTable" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

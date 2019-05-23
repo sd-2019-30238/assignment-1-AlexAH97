@@ -1,0 +1,12 @@
+D:\PS\Assignment2v4\RESTful\DatabaseDataAccess\bin\Debug\DatabaseDataAccess.dll.config
+D:\PS\Assignment2v4\RESTful\DatabaseDataAccess\bin\Debug\DatabaseDataAccess.dll
+D:\PS\Assignment2v4\RESTful\DatabaseDataAccess\bin\Debug\DatabaseDataAccess.pdb
+D:\PS\Assignment2v4\RESTful\DatabaseDataAccess\bin\Debug\EntityFramework.dll
+D:\PS\Assignment2v4\RESTful\DatabaseDataAccess\bin\Debug\EntityFramework.SqlServer.dll
+D:\PS\Assignment2v4\RESTful\DatabaseDataAccess\bin\Debug\EntityFramework.xml
+D:\PS\Assignment2v4\RESTful\DatabaseDataAccess\bin\Debug\EntityFramework.SqlServer.xml
+D:\PS\Assignment2v4\RESTful\DatabaseDataAccess\obj\Debug\DatabaseDataAccess.csprojAssemblyReference.cache
+D:\PS\Assignment2v4\RESTful\DatabaseDataAccess\obj\Debug\DatabaseDataAccess.csproj.CoreCompileInputs.cache
+D:\PS\Assignment2v4\RESTful\DatabaseDataAccess\obj\Debug\DatabaseDataAccess.csproj.CopyComplete
+D:\PS\Assignment2v4\RESTful\DatabaseDataAccess\obj\Debug\DatabaseDataAccess.dll
+D:\PS\Assignment2v4\RESTful\DatabaseDataAccess\obj\Debug\DatabaseDataAccess.pdb
