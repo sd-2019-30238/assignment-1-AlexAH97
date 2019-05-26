@@ -179,7 +179,13 @@
     <Compile Include="Models\Book.cs" />
     <Compile Include="Models\InQueue1.cs" />
     <Compile Include="Models\Library1.cs" />
+    <Compile Include="Models\Observer\Change.cs" />
+    <Compile Include="Models\Observer\IObserver.cs" />
+    <Compile Include="Models\Observer\ISubject.cs" />
     <Compile Include="Models\Observer\Observer.cs" />
+    <Compile Include="Models\Observer\Observer1.cs" />
+    <Compile Include="Models\Observer\Observer2.cs" />
+    <Compile Include="Models\Observer\subject.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -213,6 +219,7 @@
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\CollectionModelDescription.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ApiGroup.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\Api.cshtml" />
+    <Content Include="MainMenu.cshtml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -233,6 +240,9 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Home\PrincipalMeniu.cshtml" />
+    <Content Include="Views\Home\MainMenu.cshtml" />
+    <Content Include="Views\Home\Library.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

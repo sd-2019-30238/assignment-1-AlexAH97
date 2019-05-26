@@ -1,4 +1,8 @@
-﻿<html>
+﻿@{ 
+    ViewBag.Title = "Home Page";
+}
+@model RESTful.Models.User
+<html>
 <head>
 
     <title>Login</title>
@@ -6,13 +10,34 @@
 
 <body>
 
-    <form action="login.php" method="POST" align="center">
+    <form   align="center">
         <br>
-        Username:<input type="text" name="username"><br><br><br>
-        Password :<input type="text" name="password"><br><br>
+        Username:<input id="username" type="text" name="username"><br><br><br>
+        Password :<input id="password" type="text" name="password"><br><br>
 
-        <input type="Submit" value="Submit">
-
+        <input type="button" value="Submit" onclick="verify();">
+        <p id="user"></p>
     </form>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquey-2.0.3.min.js"></script>
+    <script type="text/javascript">
+        var uri = 'http://localhost:53218/api/users';
+        function verify() {
+            var username =$('#username').val();
+            // var password = document.getElementById("password").val;
+            console.log(username);
+            $.getJSON(uri+'/'+username).done(function (data) {
+                $("#user").text(formatItem(data));
+                if (data != null) {
+                    load("MainMenu.cshtml/?Username="+username);
+                }
+            }).fail(function (jqHRX, textStatus, err) {
+                $('#user').text('Error: ' + err);
+            });
+
+        }
+        function formatItem(item) {
+            return item.Username + ' ' + item.Password;
+        }
+    </script>
 </body>
 </html>

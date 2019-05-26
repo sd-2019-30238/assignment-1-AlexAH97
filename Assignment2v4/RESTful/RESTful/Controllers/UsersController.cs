@@ -27,12 +27,22 @@ namespace RESTful.Controllers
                 return us;
             }
         }
-        public User Get(int id)
+        //public User Get(int id)
+        //{
+        //    Users t;
+         //   using (DataBaseEntities entity = new DataBaseEntities())
+         //   {
+        //        t = entity.Users.FirstOrDefault(E => E.Id == id);
+        //        User newUser = new User(t.Id, t.Username, t.Password, t.Email);
+         //       return newUser;
+          //  }
+       // }
+        public User Get(string Username)
         {
             Users t;
             using (DataBaseEntities entity = new DataBaseEntities())
             {
-                t=entity.Users.FirstOrDefault(E => E.Id == id);
+                t = entity.Users.FirstOrDefault(E => E.Username == Username);
                 User newUser = new User(t.Id, t.Username, t.Password, t.Email);
                 return newUser;
             }
