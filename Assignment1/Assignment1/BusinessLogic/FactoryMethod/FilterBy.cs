@@ -44,6 +44,7 @@ namespace Assignment1.BusinessLogic.FactoryMethod
 
                     }
                 }
+                connection.Close();
             }
             return result;
         }
@@ -73,6 +74,7 @@ namespace Assignment1.BusinessLogic.FactoryMethod
 
                     }
                 }
+                connection.Close();
             }
             return result;
         }
@@ -102,6 +104,7 @@ namespace Assignment1.BusinessLogic.FactoryMethod
 
                     }
                 }
+                connection.Close();
             }
             return result;
         }
@@ -131,6 +134,7 @@ namespace Assignment1.BusinessLogic.FactoryMethod
 
                     }
                 }
+                connection.Close();
             }
             return result;
         }
@@ -160,6 +164,7 @@ namespace Assignment1.BusinessLogic.FactoryMethod
 
                     }
                 }
+                connection.Close();
             }
             return result;
         }
